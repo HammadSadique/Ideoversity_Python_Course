@@ -32,6 +32,25 @@ print(7 - 4 / 2) # Operator precedence example
 age = 21
 print(age)
 
+name = "Hammad"
+print(type(name))
+
+a = 5 
+print(type(a))
+
+a = 34.55
+print(type(a))
+
+a = True
+print(type(a))
+
+a = "ha" * 5
+print(a)
+
+a = "Hello"
+b = "world"
+print(a +" "+ b)
+
 # Percentage calculation
 obtained_marks = 952
 total_marks = 1100
