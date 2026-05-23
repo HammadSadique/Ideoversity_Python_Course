@@ -103,3 +103,58 @@ if is_leap_year:
     print(year, "is a Leap Year!")
 else:
     print(year, "is NOT a Leap Year.")
+
+is_sunny=True
+is_hw_finished=True
+
+if is_sunny==True and is_hw_finished==True:
+    print("You can go outside and play!")
+else:
+    print("You need to finish your homework first.")
+
+
+dinner_item="ice cream"
+
+if dinner_item == "cake" or dinner_item == "ice cream":
+    print("You can have dessert!")
+
+
+grade="A"
+percentage=89
+
+# Agar Apka Grade A and percentage >90 then Congratlation Else: Good
+
+if grade=="A" and percentage >90:
+    print("Congratulations! You did great!")
+else:
+    print("Good job! Keep up the good work!")
+
+
+
+# Not Operator
+
+is_light_on=True
+
+#  Not True = False
+#  Not False = True
+if not is_light_on:
+    print("Good you are saving electricity")
+else:
+    print("The light is on")
+
+province="balochistan"
+
+# Negate 
+if province != "punjab":
+    print("You are eligible to vote")    
+
+# 1) A student is allowed to sit in the exam if attendance is above 75% AND assignment is submitted.
+# 2) You can go out if it’s Saturday OR Sunday, and NOT raining.
+
+# Using Logical Operators   
+
+is_raining=False
+day_of_week="Saturday"
+
+if (day_of_week=="Saturday" or day_of_week=="Sunday") and (not is_raining):
+    print("You can go out and enjoy the day!")
