@@ -68,3 +68,42 @@ def say_hello(name,greeting="Hello"):
 # Calling with default
 say_hello("Hammad")
 say_hello("Hammad","Hi")
+
+
+# Return Statements
+
+def check_age_eligibility(age,domicile):
+    if age>=18 and domicile=="lahore":
+        return True
+    else:
+        return False
+
+isEligible=check_age_eligibility(23,"lahore")
+print(isEligible)
+
+
+
+# percentage calculator , obtMarks, totalMarks 
+#  percentage return 
+# Compute age from year of birth 
+
+
+# Make a Function that return Percentage 
+def check_percentage(obtMarks,totalMarks):
+    percentage=(obtMarks/totalMarks)*100
+    return percentage
+
+percentage=check_percentage(992,1100)
+print(percentage)
+
+# Compute age from year of birth 
+
+def compute_age(year_of_birth):
+    current_year = 2026  # You can change this to the current year
+    age = current_year - year_of_birth
+    return age
+
+# Example usage
+yob = int(input("Enter your year of birth: "))
+age = compute_age(yob)
+print("You are approximately", age, "years old.")   
