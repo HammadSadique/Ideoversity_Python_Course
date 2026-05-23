@@ -130,6 +130,34 @@ else:
     print("Good job! Keep up the good work!")
 
 
+# Using 'and' to check if a number is within a range
+num = 15
+if num > 10 and num < 20:
+    print("The number is between 10 and 20.")
+
+
+# Using 'or' to check if a number is outside a range
+num = 5
+if num < 10 or num > 20:
+    print("The number is outside the range 10 to 20.")
+
+
+# Nested condition
+
+# Check if the number is between 10 and 20 (using 'and')
+# Then check if it's an even number (using 'and' again)
+num = 12
+
+if num > 10 and num < 20:
+    # Now check if it is even
+    if num % 2 == 0:
+        print(f"{num} is between 10 and 20, and it is even.")
+    else:
+        print(f"{num} is between 10 and 20, but it is odd.")
+else:
+    print(f"{num} is NOT between 10 and 20.")
+
+
 
 # Not Operator
 
@@ -141,6 +169,21 @@ if not is_light_on:
     print("Good you are saving electricity")
 else:
     print("The light is on")
+
+is_sunny = True
+has_homework = False
+
+# Use 'not' to check if the condition is false (the opposite)
+if not has_homework:
+    print("Great! You can play outside now.")
+else:
+    print("Finish your homework first!")
+
+
+    # Using 'not' with comparison
+score = 95
+if not (score > 90):
+    print("You did NOT get an A+ grade.")
 
 province="balochistan"
 

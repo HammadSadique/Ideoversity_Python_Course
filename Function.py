@@ -48,3 +48,23 @@ elif bmi<30:
 else:
     print("You are obese.")
 
+# Function parameter
+def check_age_eligible(age,domicile):
+    if age>=18 and domicile=="Lahore":
+        print("You are Eligible to vote")
+    else:
+        print("You are not eligible to vote.")
+
+# Function Argument
+check_age_eligible(23,"Lahore")        
+check_age_eligible(17,"Karachi")
+print("You are eligible for vote")        
+print("You are not eligible for vote")     
+
+# Default Parameter
+def say_hello(name,greeting="Hello"):
+    print(f"{greeting},{name}")
+
+# Calling with default
+say_hello("Hammad")
+say_hello("Hammad","Hi")
