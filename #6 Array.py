@@ -23,19 +23,19 @@ print(name[4])
 print(name[5])
 
 # Make a program to add the marks of 5 students using arrays/list.
-# marks = []
-# for i in range(5):
-#     mark = int(input("Enter mark: "))
-#     marks.append(mark)
-#     print(marks)
-#     print(sum(marks))
+marks = []
+for i in range(5):
+    mark = int(input("Enter mark: "))
+    marks.append(mark)
+    print(marks)
+    print(sum(marks))
 
 
-# name = []   
-# for i in range(5):
-#     name = input("Enter a name: ")
-#     name.append(name)        
-# print(name)
+name = []   
+for i in range(5):
+    name = input("Enter a name: ")
+    name.append(name)        
+print(name)
 
 
 students =["Ali", "Ahmed", "Talha", "Hammad", "Zeeshan"]
