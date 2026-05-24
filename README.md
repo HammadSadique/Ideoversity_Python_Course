@@ -17,6 +17,7 @@ Here is a breakdown of the Python files in this repository:
 | **`#3 Conditional Statements And Loop.py`** | Control Flow, Loops, Typecasting | `if-else` logic, `for` loops, `while` loops, nested loops (patterns), `break`/`continue`, password verification, and guessing games. |
 | **`#4 Oprators in python.py`** | Operators, Logical Conditions | Arithmetic, Comparison, Assignment, Compound Assignment, and Logical (`and`, `or`, `not`) operators, with practical scenarios like a leap year checker. |
 | **`#5 Function.py`** | Functions, Scopes, Arguments | Writing reusable code blocks. Parameters, default arguments, return statements, and apps like a BMI calculator & Age calculator. |
+| **`#6 Array.py`** | Lists, List Methods, Membership | Understanding lists (arrays) in Python. Indexing, modifications (`append`, `insert`, `remove`, `pop`), checking membership (`in`), and calculating sum. |
 
 ---
 
@@ -61,6 +62,17 @@ Here is a breakdown of the Python files in this repository:
   * **BMI (Body Mass Index) Calculator** to categorize weight levels.
   * **Age Calculator** that calculates age dynamically from the year of birth.
 
+### 6️⃣ Arrays & Lists (Python Lists)
+* **List Basics & Indexing**: Creating lists, accessing elements using 0-based index.
+* **Strings as Arrays**: Accessing string characters by their index position.
+* **List Manipulation Methods**:
+  * `append(value)`: Add elements to the end of a list.
+  * `insert(index, value)`: Insert elements at specific positions.
+  * `remove(value)`: Remove the first occurrence of a specific value.
+  * `pop(index)`: Remove and return an element at a given index (or the last element if no index is provided).
+* **Accumulating Values in Loops**: Collecting multiple user inputs into a list and calculating sum using `sum()`.
+* **Membership Testing (`in` / `not in`)**: Checking if an element exists in a list to check category membership (e.g. checking students and employees lists).
+
 ---
 
 ## 🚀 How to Run the Files Locally
@@ -78,6 +90,7 @@ Here is a breakdown of the Python files in this repository:
    python "#3 Conditional Statements And Loop.py"
    python "#4 Oprators in python.py"
    python "#5 Function.py"
+   python "#6 Array.py"
    ```
 
 ---
