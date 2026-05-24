@@ -107,3 +107,36 @@ def compute_age(year_of_birth):
 yob = int(input("Enter your year of birth: "))
 age = compute_age(yob)
 print("You are approximately", age, "years old.")   
+
+
+
+def triangle_area(base,height):
+    area = (base * height)/2
+    return area
+base = float(input("Enter base: "))
+height = float(input("Enter Height: "))
+#Fumction Call
+result = triangle_area(base, height)
+
+print("Area of Triangle =", result)
+
+
+
+def is_prime(number):
+    if number <= 1:
+        return False
+
+    for i in range(2, number):
+        if number % i == 0:
+            return False
+
+
+    return True
+
+num = int(input("Enter a number: "))
+
+if is_prime(num):
+    print(num, "is a Prime Number")
+else:
+    print(num, "is not a Prime Number")
+    
