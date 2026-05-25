@@ -31,11 +31,11 @@ for i in range(5):
     print(sum(marks))
 
 
-name = []   
+names = []   
 for i in range(5):
     name = input("Enter a name: ")
-    name.append(name)        
-print(name)
+    names.append(name)        
+print(names)
 
 
 students =["Ali", "Ahmed", "Talha", "Hammad", "Zeeshan"]

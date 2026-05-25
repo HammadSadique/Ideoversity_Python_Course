@@ -35,7 +35,7 @@ Here is a breakdown of the Python files in this repository:
   * `float` (e.g., price, percentage)
   * `complex` (e.g., complex numbers like `5 + 6j`)
   * `str` (e.g., names, strings)
-* **String Operations**: Checking string length using `len()`.
+* **String Operations**: Checking string length using `len()`, string indexing (accessing characters by position), and iterating through characters using a `for` loop.
 * **Python Collections**:
   * **Lists**: Declaring and printing nested and simple lists.
   * **Tuples**: Working with ordered, immutable collections.

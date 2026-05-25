@@ -26,11 +26,11 @@ if grade == "A":
 elif grade == "B":
     discount = 20
 elif grade == "C":
-    discount == 10
+    discount = 10
 else:
-    discount == 5
+    discount = 5
 
-after_discount = total_fees - (totalmarks * discount / 100)
+after_discount = total_fees - (total_fees * discount / 100)
 print("Your discount is: ",discount, "%")
 print("Your fees after discount is: ", after_discount)
 
@@ -210,10 +210,10 @@ for i in range(1,541):
 
 # 2) Use a while loop to keep asking the user for the password until it’s correct.
 
-    correct_password="234"
+correct_password="234"
+user_password = input("Enter the password: ")
+while user_password != correct_password:
     user_password = input("Enter the password: ")
-    while user_password != correct_password:
-        user_password = input("Enter the password: ")
 
 print("Access granted. Welcome!")
 

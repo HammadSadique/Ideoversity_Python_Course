@@ -87,3 +87,44 @@ print("The value of,", a, " * ", b, " is: ", a * b)
 print("The value of,", a, " / ", b, " is: ", a / b)
 print("The value of,", a, " % ", b, " is: ", a % b)
 
+# Input Function
+
+# a = input("Enter your name: ")
+# print("My name is ", a)
+
+# x = input("Enter your first number ")
+# y = input("Enter your Second number ")
+# print(x + y)
+
+# print(int(x) + int(y))
+
+# String Data Type
+
+# String
+name = "Hammad"
+full_name = 'Hammad Sadique'
+
+print("Hello", name)
+print(type(name))
+print(type(full_name))
+
+
+apple = "He said, \"I wnat to eat apple" 
+
+print(apple)
+
+# Indexing in String
+
+name = "Hammad"
+
+print(name[0])
+print(name[1])
+print(name[2])
+print(name[3])
+print(name[4])
+print(name[5])
+
+
+print("Lets use a for loop")
+for character in name:
+    print(character)
