@@ -128,3 +128,8 @@ print(name[5])
 print("Lets use a for loop")
 for character in name:
     print(character)
+
+# Length of string
+fruit = "Mango"
+len1 = len(fruit)
+print("Mango is a", len1, "letter word.") 
