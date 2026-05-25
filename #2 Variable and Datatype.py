@@ -43,4 +43,47 @@ print(type(full_name))
 # Length of string
 fruit = "Mango"
 len1 = len(fruit)
-print("Mango is a", len1, "letter word.")     
+print("Mango is a", len1, "letter word.") 
+
+# List 
+list = [8, 2.5,[3, 5, 9],[3, 4]]
+print(list)
+print(type(list))
+
+tuple = (("parrot", "Sparrow", ("Lion", "Deer")))
+print(tuple)
+print(type(tuple))
+
+# Dictionary (Mapped Data)
+
+dict = {"name": "Hammad", "age": 21, "Can vote": True}
+print(dict)
+print(type(dict))
+
+
+# Percentage calculation
+obtained_marks = 952
+total_marks = 1100
+
+percentage = (obtained_marks / total_marks) * 100
+print("Percentage =", percentage)
+
+# Triangle area calculation
+base = 10
+height = 20
+
+area = (base * height) / 2
+
+print("Area of Triangle =", area)
+
+# Calculator Using Python
+
+a = 20
+b = 30
+
+print("The value of,", a, " + ", b, " is: ", a + b)
+print("The value of,", a, " - ", b, " is: ", a - b)
+print("The value of,", a, " * ", b, " is: ", a * b)
+print("The value of,", a, " / ", b, " is: ", a / b)
+print("The value of,", a, " % ", b, " is: ", a % b)
+
