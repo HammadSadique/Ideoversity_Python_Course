@@ -12,11 +12,11 @@ Here is a breakdown of the Python files in this repository:
 
 | File Name | Primary Topics | Description |
 | :--- | :--- | :--- |
-| **`#1 Hello World.py`** | Basics, Prints, Operations | Introduction to print statement, basic arithmetic operations, variables, percentage, and area calculation. |
-| **`#2 Variable and Datatype.py`** | Variables, Types, Typecasting | Exploring Python datatypes (Integer, Float, Complex, String), typechecking, and basic string operations. |
+| **`#1 Hello World.py`** | Basics, Prints, Operations | Introduction to print statement, basic arithmetic operations, variables, type checking, string replication, and concatenation. |
+| **`#2 Variable and Datatype.py`** | Variables, Datatypes, Collections, Formulas | Exploring Python datatypes, string length, collections (Lists, Tuples, Dictionaries), percentage/area formulas, and a basic calculator. |
 | **`#3 Conditional Statements And Loop.py`** | Control Flow, Loops, Typecasting | `if-else` logic, `for` loops, `while` loops, nested loops (patterns), `break`/`continue`, password verification, and guessing games. |
 | **`#4 Oprators in python.py`** | Operators, Logical Conditions | Arithmetic, Comparison, Assignment, Compound Assignment, and Logical (`and`, `or`, `not`) operators, with practical scenarios like a leap year checker. |
-| **`#5 Function.py`** | Functions, Scopes, Arguments | Writing reusable code blocks. Parameters, default arguments, return statements, and apps like a BMI calculator & Age calculator. |
+| **`#5 Function.py`** | Functions, Scopes, Arguments, Return | Writing reusable code blocks. Parameters, default arguments, return statements, and apps like BMI, Age, and Triangle Area calculators, plus prime checking. |
 | **`#6 Array.py`** | Lists, List Methods, Membership | Understanding lists (arrays) in Python. Indexing, modifications (`append`, `insert`, `remove`, `pop`), checking membership (`in`), and calculating sum. |
 
 ---
@@ -26,16 +26,24 @@ Here is a breakdown of the Python files in this repository:
 ### 1️⃣ Hello World & Basic Arithmetic
 * **Printing Output**: Using `print()` to write text to console.
 * **Basic Math**: Addition (`+`), subtraction (`-`), multiplication (`*`), division (`/`), exponentiation (`**`), and modulus (`%`).
-* **Dynamic Typing**: Assigning variables without declaring types and checking their types using `type()`.
-* **Basic Formulas**: Percentage calculation and finding the area of a triangle.
+* **Variables & Type Checking**: Storing values in variables and checking their types using `type()`.
+* **String Operations**: String replication (`"ha" * 5`) and concatenation (`+`).
 
-### 2️⃣ Variables & Datatypes
+### 2️⃣ Variables, Datatypes & Collections
 * **Standard Datatypes**: 
   * `int` (e.g., age, salary)
   * `float` (e.g., price, percentage)
   * `complex` (e.g., complex numbers like `5 + 6j`)
   * `str` (e.g., names, strings)
-* **String Operations**: Checking string length using `len()`, string replication (`"ha" * 5`), and concatenation.
+* **String Operations**: Checking string length using `len()`.
+* **Python Collections**:
+  * **Lists**: Declaring and printing nested and simple lists.
+  * **Tuples**: Working with ordered, immutable collections.
+  * **Dictionaries**: Key-value pairs representing mapped data (e.g. user details).
+* **Applied Math & Calculator**:
+  * **Percentage Calculation**: Formula-based percentage calculator.
+  * **Triangle Area Calculation**: Base and height area calculator.
+  * **Basic Arithmetic Calculator**: Displaying values of mathematical operations for user values.
 
 ### 3️⃣ Control Flow & Loop Iterations
 * **Conditional Statements**: `if`, `elif`, and `else` branches. Used for checking voting eligibility and fee discount grades.
@@ -59,8 +67,11 @@ Here is a breakdown of the Python files in this repository:
 * **Default Arguments**: Providing default values (e.g., `greeting="Hello"`).
 * **Return Statement**: Retrieving output from a function for further calculation.
 * **Real-world Applications Included**:
-  * **BMI (Body Mass Index) Calculator** to categorize weight levels.
-  * **Age Calculator** that calculates age dynamically from the year of birth.
+  * **BMI (Body Mass Index) Calculator**: Categorizes weight levels based on weight and height inputs.
+  * **Age Calculator**: Calculates age dynamically using year of birth.
+  * **Triangle Area Function**: Calculates area using base and height inputs.
+  * **Prime Number Checker**: Function returning boolean if a number is prime.
+  * **Percentage Calculator**: Function returning the calculated percentage.
 
 ### 6️⃣ Arrays & Lists (Python Lists)
 * **List Basics & Indexing**: Creating lists, accessing elements using 0-based index.
