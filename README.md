@@ -8,7 +8,7 @@ Each file is fully commented, self-contained, and serves as an excellent referen
 
 ## 📂 Project Directory Structure
 
-Here is a breakdown of the Python files in this repository:
+Here is a breakdown of the files in this repository:
 
 | File Name | Primary Topics | Description |
 | :--- | :--- | :--- |
@@ -18,6 +18,10 @@ Here is a breakdown of the Python files in this repository:
 | **`#4 Oprators in python.py`** | Operators, Logical Conditions | Arithmetic, Comparison, Assignment, Compound Assignment, and Logical (`and`, `or`, `not`) operators, with practical scenarios like a leap year checker. |
 | **`#5 Function.py`** | Functions, Scopes, Arguments, Return | Writing reusable code blocks. Parameters, default arguments, return statements, and apps like BMI, Age, and Triangle Area calculators, plus prime checking. |
 | **`#6 Array.py`** | Lists, List Methods, Membership | Understanding lists (arrays) in Python. Indexing, modifications (`append`, `insert`, `remove`, `pop`), checking membership (`in`), and calculating sum. |
+| **`#7 OOP.Ipynb`** | OOP, Classes, Objects, Inheritance | Object-Oriented Programming (OOP) concepts, defining parent/child classes, methods, attributes, and inheritance. |
+| **`08-a-PyPi.ipynb.ipynb`** | PyPI Packages, Time, Text-to-Speech | Installing and utilizing third-party libraries: `pyjokes` for generating jokes, `spepy` for offline text-to-speech, and `moment` for datetime formatting. |
+| **`09-a-chatbot-vs-aiagent-Langgraph.ipynb`** | Gemini SDK, Chatbots, Agents, LangGraph | Developing AI Chatbots and Agents using the new `google-genai` SDK and LangGraph. |
+| **`speak.vbs`** | VBScript, Text-to-Speech (SAPI) | A simple standalone Windows VBScript file that plays text-to-speech utilizing `sapi.spvoice`. |
 
 ---
 
@@ -84,6 +88,22 @@ Here is a breakdown of the Python files in this repository:
 * **Accumulating Values in Loops**: Collecting multiple user inputs into a list and calculating sum using `sum()`.
 * **Membership Testing (`in` / `not in`)**: Checking if an element exists in a list to check category membership (e.g. checking students and employees lists).
 
+### 7️⃣ Object-Oriented Programming (OOP)
+* **Classes & Objects**: Defining blueprints using `class` and instantiating them.
+* **Inheritance**: Creating child classes (`Child`) that inherit properties and methods from parent classes (`Parent`).
+* **Attributes & Methods**: Storing state inside `self` and defining object actions.
+
+### 8️⃣ Working with PyPI Packages
+* **Package Management**: Using `%pip install <package>` within Jupyter Notebooks to extend functionality.
+* **Random Jokes**: Integrating the `pyjokes` library to retrieve developer jokes.
+* **Text-to-Speech**: Utilizing the `spepy` library to convert text strings to voice output offline.
+* **Date & Time Formatting**: Using `moment` to parse, format, and display timestamps.
+
+### 9️⃣ AI Chatbots & Agents (Gemini & LangGraph)
+* **Google GenAI SDK**: Integrating the new `google-genai` SDK to initialize and communicate with Gemini models.
+* **Content Generation**: Generating text dynamically using `client.models.generate_content`.
+* **Chatbots vs Agents**: Structuring conversation loops and building multi-turn logic with LangGraph.
+
 ---
 
 ## 🚀 How to Run the Files Locally
@@ -94,15 +114,12 @@ Here is a breakdown of the Python files in this repository:
    cd Ideoversity_Python_Course
    ```
 
-2. **Run any Python file**:
-   ```bash
-   python "#1 Hello World.py"
-   python "#2 Variable and Datatype.py"
-   python "#3 Conditional Statements And Loop.py"
-   python "#4 Oprators in python.py"
-   python "#5 Function.py"
-   python "#6 Array.py"
-   ```
+2. **Run Python files or Jupyter Notebooks**:
+   * For standard Python scripts:
+     ```bash
+     python "#1 Hello World.py"
+     ```
+   * For notebooks (`.ipynb`), make sure your Jupyter kernel is set to the `.venv` virtual environment and run them via VS Code or Jupyter Lab.
 
 ---
 Happy Coding! 🚀
